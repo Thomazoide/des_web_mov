@@ -1,0 +1,47 @@
+.interfaz-control{
+
+}
+
+.pantalla-control{
+    background-color: rgb(23, 135, 0);
+    width: 98%;
+    height: 200px;
+    margin-left: 18px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.titulo-control{
+    height: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    display: block;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    }
+
+.titulo-control:hover{
+    color: black
+}
+
+.titulo-ID{
+    height: 30px;
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    }
+
+.titulo-ID:hover{
+    color:black;
+}

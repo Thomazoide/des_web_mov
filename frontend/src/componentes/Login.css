@@ -1,0 +1,145 @@
+.interfaz-login{
+    background-color: whitesmoke;
+}
+
+.pantalla-login{
+    background-color: rgb(95, 0, 0);
+    width: 98%;
+    height: 100%;
+    margin-left: 18px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.titulo-login{
+    height: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    display: block;
+    font-weight: bold;
+    padding-top: 30px;
+    }
+
+.titulo-login:hover{
+    color: black
+}
+
+.formulario{
+    width: 100%;
+    padding-top: 100px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-user{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.text-pass{
+    display: block;
+    text-decoration: none;
+    color: black;
+
+}
+
+.text-pass:hover{
+    color: black;
+}
+
+.text-user:hover{
+    color: black;
+}
+
+.input-user{
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 20px;
+    background-color: black;
+    border: 0px;
+    padding: 10px;
+    color: rgb(23, 135, 0);
+    outline: none;
+    width: 300px;
+}
+.input-pass{
+    margin-top: 10px;
+    display: block;
+    background-color: black;
+    border: 0px;
+    padding: 10px;
+    color: rgb(23, 135, 0);
+    outline: none;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.iniciar-sesion{
+    margin-right: 0px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-top: 60px;
+    background-color: black;
+    border: 0px;
+    color: rgb(95, 0, 0);
+    height: 50px;
+    width: 280px;
+    font-weight: bold;
+}
+
+.no-password{
+    margin-left: 10px;
+    background-color: black;
+    border: 0px;
+    color: rgb(95, 0, 0);
+    font-weight: bold;
+    height: 50px;
+    width: 280px;
+    
+
+}
+
+.iniciar-sesion:hover{
+    color: white;
+}
+
+.no-password:hover{
+    color: white;
+}
+
+@media screen and (max-width:480px){
+    .input-user{
+        margin-top: 10px;
+        display: block;
+        margin-bottom: 20px;
+        background-color: black;
+        border: 0px;
+        padding: 10px;
+        color: rgb(23, 135, 0);
+        outline: none;
+    }
+    .input-pass{
+        margin-top: 10px;
+        display: block;
+        background-color: black;
+        border: 0px;
+        padding: 10px;
+        color: rgb(23, 135, 0);
+        outline: none;
+        margin-bottom: 30px;
+    }
+
+    .mensaje_login{
+        background-color: aliceblue;
+    }
+}

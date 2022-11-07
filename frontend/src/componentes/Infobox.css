@@ -1,0 +1,32 @@
+.interfaz-infobox{
+    background-color: whitesmoke;
+}
+
+.contenido{
+    background-color: rgb(95,0,0);
+}
+
+.titulo{
+    text-align: center;
+}
+.subtitulo{
+    text-align: center;
+}
+.tabla{
+    content: "";
+    display:flex;
+    flex-direction: row;
+    clear:both;
+}
+
+.box-grandes{
+    text-align: center;
+}
+.box-medianos{
+    text-align: center;
+}
+.box-pequenos{
+    color:white;
+    text-align: center;
+}
+
