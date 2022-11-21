@@ -1,12 +1,16 @@
+.body{
+    background-color: gray;
+}
+
 .interfaz-agendar{
     background-color: whitesmoke;
 }
 
 .pantalla-agendar{
     background-color: rgb(95, 0, 0);
-    width: 98%;
+    width: 100%;
     height: 100%;
-    margin-left: 18px;
+    
     align-items: center;
     text-align: center;
 }
@@ -42,19 +46,23 @@
 .tinp{
     color: gray;
     opacity: 65%;
+    border-radius: 5px;
 }
 
 .fecha{
     margin: .4rem 0;
+    border-radius: 15px;
 }
 
 .finf{
     width: 100%;
-    padding-top: none;
+    padding-top: 35px;
     display: flex;
     flex-direction: row;
+    max-width: 1920px;
+    margin: auto;
     align-items: center;
-    margin-left: 50px;
+    
 }
 
 .check{
@@ -64,6 +72,11 @@
 .lista{
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.opciones{
+    align-items: center;
 }
 
 .boton{

@@ -2,7 +2,7 @@
     width: 100%;
     background-color: rgb(123, 123, 123);
     margin-top: -48px;
-    padding: 1em;
+    
     display:contents;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -24,6 +24,8 @@
 }
 
 .Cabecera-nav{
+    display: flex;
+    flex-direction:row;
     background-color: rgb(95, 0, 0);
     align-items: center;
     position: center;

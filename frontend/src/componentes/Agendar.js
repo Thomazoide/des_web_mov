@@ -26,18 +26,14 @@ function Agendar(){
                         <option>La Serena</option>
                     </select>
                     <a className="texto">Ingrese especialidad</a>
-                    <form className="finf">
-                        <input className="check" type="radio" id='psicologia'></input>
-                        <label className="texto" for='psicologia'>Psicologia</label>
-                        <input className="check" type='radio' id='kinesiologia'></input>
-                        <label className="texto" for='kinesiologia'>Kinesiologia</label>
-                        <input className="check" type='radio' id='fonoaudiologia'></input>
-                        <label className="texto" for='fonoaudiologia'>Fonoaudiologia</label>
-                        <input className="check" type='radio' id='educacion'></input>
-                        <label className="texto" for='educiacion'>Educacion diferencial</label>
-                        <input className="check" type='radio' id='terapia'></input>
-                        <label className="texto" for='terapia'>Terapia ocupacional</label>
-                    </form>
+                    <select className="lista">
+                        <option>Fonoaudología</option>
+                        <option>Kinesiología</option>
+                        <option>Terapia ocupacional</option>
+                        <option>Educación diferencial</option>
+                        <option>Psicología</option>
+                        <option>Medicina general</option>
+                    </select>
                 </form>
                 <button className="boton">Agendar mi hora</button>
             </div>
