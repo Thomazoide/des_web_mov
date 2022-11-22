@@ -9,6 +9,7 @@ const Medics = new Schema({
     rut: {
         type: String,
         required: true,
+        unique: true,
     },
     email: String,
     cell: String,

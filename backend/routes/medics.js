@@ -1,0 +1,11 @@
+const {Router} = require('express')
+const {getMedics, getmedic, mutarMedic, borrarMedic, crearMedic} = require('./../controllers/medics.controller')
+const router = Router()
+router.route('/')
+    .get(getMedics)
+    .post(crearMedic)
+router.route('/:rut')
+    .get(getmedic)
+    .put(mutarMedic)
+    .delete(borrarMedic)
+module.exports = router
