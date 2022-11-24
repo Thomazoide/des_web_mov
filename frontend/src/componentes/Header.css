@@ -20,7 +20,6 @@ body{
     text-decoration: none;
     color: rgb(0, 0, 0);
     cursor: pointer;
-
 }
 
 .Cabecera-h1{
@@ -58,7 +57,7 @@ body{
 }
 .Cabecera-a:hover{
     color: rgb(123, 123, 123);
-    font-size: 110%;
+    font-size: 105%;
 }
 
 

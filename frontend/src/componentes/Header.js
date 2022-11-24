@@ -30,6 +30,10 @@ export function Header() {
         navigate('/Infobox')
     }
 
+    const rutearEquipo = () => {
+        navigate('/conocer-equipo')
+    }
+
   
   return (
     <header className='Cabecera'>
@@ -38,6 +42,7 @@ export function Header() {
             <ul className="Cabecera-ul">
                 <li className="Cabecera-li"><a onClick={ruteoAgendar} className="Cabecera-a">Agendar Box</a></li>
                 <li className="Cabecera-li"><a onClick={rutearInfoBox} className="Cabecera-a">Informacion Box</a></li>
+                <li className="Cabecera-li"><a className="Cabecera-a" onClick={rutearEquipo}>Conoce nuestro equipo</a></li>
                 <li className="Cabecera-li"><a href="" className="Cabecera-a">Insumos</a></li>
                 <li className="Cabecera-li"><a onClick={rutearLogin} className="Cabecera-a">Iniciar sesión / Registrarse</a></li>
             </ul>

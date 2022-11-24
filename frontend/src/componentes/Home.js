@@ -5,8 +5,7 @@ import './Home.css';
 function Home() {
     return (
         <body className='interfaz-home'>
-            <Header/>
-            
+            <Header/>          
             <div className='contenido'>
                 <h1 className='titulo'>Bienvenido a EduDown</h1>
                 <div className='cuadro'>

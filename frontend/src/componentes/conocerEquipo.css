@@ -1,0 +1,13 @@
+.contenido{
+    display: flex;
+    flex-direction: row;
+}
+.medicos{
+    display: table-column;
+}
+.user-pic{
+    display: flex;
+    float: right;
+    max-width: 100%;
+    max-height: 100%;
+}

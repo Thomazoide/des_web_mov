@@ -6,6 +6,7 @@ import Home from './componentes/Home';
 import UICONTROL from './componentes/UICONTROL';
 import Agendar from './componentes/Agendar'
 import InfoBox from './componentes/Infobox'
+import ConocerEquipo from './componentes/conocerEquipo'
 
 function App() {
   
@@ -14,7 +15,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/Login' element={<Login />} />
         <Route path='/Home' element={<Home />} />
-        <Route path='/UICONTROL' element={<UICONTROL />} />
+        <Route path='/conocer-equipo' element={<ConocerEquipo/>}/>
         <Route path='/Agendar' element={<Agendar />} />
         <Route path='/InfoBox' element={<InfoBox />} />
       </Routes>
