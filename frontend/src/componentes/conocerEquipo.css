@@ -1,15 +1,32 @@
 .contenido-e{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .medicos{
     border-style:inset;
+    margin-right: 5vh;
     border-color: gray;
     border: 2px;
     border-width: 2px;
+    width: 500px;
 }
-
+.nurses{
+    margin-right: 5vh;
+    margin-left: 5vh;
+    width: 500px;
+}
+.auxiliares{
+    margin-left: 5vh;
+    width: 500px;
+}
 .medic{
+    margin-bottom: 15vh;
+}
+.nurse{
+    margin-bottom: 15vh;
+}
+.auxiliar{
     margin-bottom: 15vh;
 }
 .pic-container{
