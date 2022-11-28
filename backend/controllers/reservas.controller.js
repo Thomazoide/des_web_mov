@@ -1,3 +1,4 @@
+const { Schema, Types } = require('mongoose')
 const Reservas = require('./../models/Reservas')
 const reservasCtrl = {}
 reservasCtrl.getReservas = async (req, res) => {
@@ -6,8 +7,9 @@ reservasCtrl.getReservas = async (req, res) => {
 }
 
 reservasCtrl.guardarReserva = async (req, res) => {
-    const {fecha, hora, rutSostenedor, rutPaciente, codSede } = req.body
-    const nuevaReserva = new Reservas(fecha, hora, rutSostenedor, rutPaciente, codSede)
+    const {fecha, hora, rutSostenedor, rutPaciente, especialidad, codSede } = req.body
+    console.log(req.body)
+    const nuevaReserva = new Reservas({fecha, hora, rutSostenedor, rutPaciente, especialidad, codSede})
     await nuevaReserva.save()
     res.json({msg: 'hora reservada'})
 }
