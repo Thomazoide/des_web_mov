@@ -4,6 +4,7 @@
 
 .contenido{
     background-color: rgb(95,0,0);
+    display: table;
 }
 
 .titulo{

@@ -1,7 +1,10 @@
 .interfaz-home{
-    background-color: white;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
 }
-
 .titulo{
     color: whitesmoke;
     text-align: center;
@@ -12,15 +15,22 @@
 
 .contenido{
     background-color: rgb(95,0,0);
+    text-align: center;
     margin-bottom: 35px;
     align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
 }
 
 .parrafo{
+    justify-content: center;
+    text-align: center;
     margin-left: 15px;
     font-size: large;
     color: black;
     font-weight: bold;
+    margin-bottom: 15vh;
 }
 
 .cuadro-sedes{
@@ -29,7 +39,11 @@
 }
 
 .cuadro{
+    text-align: center;
+    justify-content: center;
     align-items: center;
+    display: flexbox;
+    width: 100%;
 }
 
 .sedes{
@@ -37,6 +51,7 @@
     border-style:groove;
     border-radius: 5px;
     border-color: black;
+    
     margin-left: 20px;
     margin-right: 50%;
     margin-bottom: 35px;

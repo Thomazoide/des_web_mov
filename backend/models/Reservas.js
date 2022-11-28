@@ -5,9 +5,8 @@ const Reservas = new Schema({
     hora: String,
     rutSostenedor: String,
     rutPaciente: String,
-    rutProfesional: String,
+    especialidad: String,
     codSede: String,
-    numBox: String,
 });
 
 module.exports = model('reservas', Reservas);

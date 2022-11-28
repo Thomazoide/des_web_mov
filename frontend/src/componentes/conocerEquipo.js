@@ -5,9 +5,9 @@ import './conocerEquipo.css';
 
 export default class ConocerEquipo extends React.Component {
     
-state = {
-    medics: [],
-}
+    state = {
+        medics: [],
+    }
 
     async componentDidMount(){
         const arreglo = await axios.get('http://localhost:4000/api/medics')
@@ -19,7 +19,7 @@ state = {
         return(
             <div className="cuerpo">
                 <Header/>
-                <div className="contenido">
+                <div className="contenido-e">
                     <div className="medicos">
                         <ul className="lista-medicos">
                             {
